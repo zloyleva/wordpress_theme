@@ -1,0 +1,3 @@
+wp-content/uploads/*
+.idea/
+wp-config.php

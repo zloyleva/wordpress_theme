@@ -10,6 +10,12 @@ class WoocoomerceSettings
         add_action( 'after_setup_theme', array($this, 'woocommerce_support') );
     }
 
+    /**
+     * Change UAH sign to 'grn'
+     * @param $currency_symbol
+     * @param $currency
+     * @return string
+     */
     static function add_ua_currency_symbol( $currency_symbol, $currency ) {
         switch( $currency ) {
             case 'UAH': $currency_symbol = ' грн'; break;
@@ -17,6 +23,11 @@ class WoocoomerceSettings
         return $currency_symbol;
     }
 
+    /**
+     * Hide some fields on check page
+     * @param $fields
+     * @return mixed
+     */
     static function custom_override_checkout_fields( $fields ) {
         unset($fields['billing']['billing_last_name']);
         unset($fields['billing']['billing_company']);
@@ -31,7 +42,9 @@ class WoocoomerceSettings
         return $fields;
     }
 
-
+    /**
+     * Create Woocoomerce support
+     */
     static function woocommerce_support() {
         add_theme_support( 'woocommerce' );
     }

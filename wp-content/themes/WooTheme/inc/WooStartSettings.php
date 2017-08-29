@@ -30,23 +30,7 @@ class WooStartSettings{
 
     static function load_woo_theme_scripts() {
         // Load our main stylesheet.
-        wp_enqueue_style( 'my-css', get_stylesheet_uri() );
-        wp_enqueue_style( 'wp-woo-styles', get_template_directory_uri() . '/css/style.css' );
-        // wp_enqueue_style( 'fa-font-styles', get_template_directory_uri() . '/css/font-awesome.min.css' );
-        wp_enqueue_script( 'jquery', true );
-        wp_localize_script('jquery', 'get_data',
-            array(
-                'url' => admin_url('admin-ajax.php')
-            )
-        );
-        wp_register_script( 'woo_theme_script',  get_template_directory_uri() . '/js/wootheme-script.js', array('jquery'), '1.0.1', true );
-        wp_enqueue_script( 'woo_theme_script' );
-
-        // Show script only on login page
-        wp_register_script( 'woo_theme_login',  get_template_directory_uri() . '/js/login.js', array('jquery'), '1.0.1', true );
-        if(is_page('login') ){
-            wp_enqueue_script( 'woo_theme_login' );
-        }
+        wp_enqueue_style( 'wootheme-css',  get_template_directory_uri() . '/styles/style.css' );
     }
 
 }

@@ -1,5 +1,5 @@
 <?php
-//namespace WooTheme;
+
 class WooStartSettings{
 
     function __construct()
@@ -8,8 +8,10 @@ class WooStartSettings{
         add_action('wp_enqueue_scripts', array($this, 'load_woo_theme_scripts'));
     }
 
-
-    function start_setup() {
+    /**
+     * Add thumbnails, menus, custom logo
+     */
+    static function start_setup() {
         add_theme_support( 'post-thumbnails' );
         register_nav_menus( array(
             'primary' => __( 'Primary Menu' ),
@@ -26,7 +28,7 @@ class WooStartSettings{
         ) );
     }
 
-    function load_woo_theme_scripts() {
+    static function load_woo_theme_scripts() {
         // Load our main stylesheet.
         wp_enqueue_style( 'my-css', get_stylesheet_uri() );
         wp_enqueue_style( 'wp-woo-styles', get_template_directory_uri() . '/css/style.css' );
@@ -48,4 +50,3 @@ class WooStartSettings{
     }
 
 }
-new WooStartSettings;

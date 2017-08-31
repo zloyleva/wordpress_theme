@@ -292,7 +292,7 @@ function wc_cart_totals_coupon_html( $coupon ) {
 }
 
 /**
- * Get order total html including inc tax if needed.
+ * Get order total html including Classes tax if needed.
  *
  * @access public
  */

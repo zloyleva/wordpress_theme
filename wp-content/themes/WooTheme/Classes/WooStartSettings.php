@@ -1,9 +1,10 @@
 <?php
 
+namespace Classes;
+
 class WooStartSettings{
 
-    function __construct()
-    {
+    function __construct(){
         add_action('after_setup_theme', array($this, 'start_setup'));
         add_action('wp_enqueue_scripts', array($this, 'load_woo_theme_scripts'));
     }

@@ -89,7 +89,7 @@ define('SIMPLEPIE_VERSION', '1.3.1');
 
 /**
  * SimplePie Build
- * @todo Hardcode for release (there's no need to have to call SimplePie_Misc::get_build() only every load of simplepie.inc)
+ * @todo Hardcode for release (there's no need to have to call SimplePie_Misc::get_build() only every load of simplepie.Classes)
  */
 define('SIMPLEPIE_BUILD', gmdate('YmdHis', SimplePie_Misc::get_build()));
 

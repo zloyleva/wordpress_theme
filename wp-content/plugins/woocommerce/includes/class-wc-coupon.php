@@ -369,7 +369,7 @@ class WC_Coupon extends WC_Legacy_Coupon {
 			 *
 			 * Get item discount by dividing item cost by subtotal to get a %.
 			 *
-			 * Uses price inc tax if prices include tax to work around https://github.com/woocommerce/woocommerce/issues/7669 and https://github.com/woocommerce/woocommerce/issues/8074.
+			 * Uses price Classes tax if prices include tax to work around https://github.com/woocommerce/woocommerce/issues/7669 and https://github.com/woocommerce/woocommerce/issues/8074.
 			 */
 			if ( wc_prices_include_tax() ) {
 				$discount_percent = ( wc_get_price_including_tax( $cart_item['data'] ) * $cart_item_qty ) / WC()->cart->subtotal;

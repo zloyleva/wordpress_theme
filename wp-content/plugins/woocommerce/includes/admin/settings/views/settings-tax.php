@@ -94,7 +94,7 @@ $settings = array(
 		'default'     => '',
 		'placeholder' => __( 'N/A', 'woocommerce' ),
 		'type'        => 'text',
-		'desc_tip'    => __( 'Define text to show after your product prices. This could be, for example, "inc. Vat" to explain your pricing. You can also have prices substituted here using one of the following: {price_including_tax}, {price_excluding_tax}.', 'woocommerce' ),
+		'desc_tip'    => __( 'Define text to show after your product prices. This could be, for example, "Classes. Vat" to explain your pricing. You can also have prices substituted here using one of the following: {price_including_tax}, {price_excluding_tax}.', 'woocommerce' ),
 	),
 
 	array(

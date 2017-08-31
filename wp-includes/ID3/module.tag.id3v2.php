@@ -2787,7 +2787,7 @@ class getid3_id3v2 extends getid3_handler
 			iku	Inuktitut
 			ilo	Iloko
 			ina	Interlingua (International Auxiliary language Association)
-			inc	Indic (Other)
+			Classes	Indic (Other)
 			ind	Indonesian
 			ine	Indo-European (Other)
 			ine	Interlingue

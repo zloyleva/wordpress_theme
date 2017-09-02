@@ -32,6 +32,19 @@ class WooStartSettings{
     static function load_woo_theme_scripts() {
         // Load our main stylesheet.
         wp_enqueue_style( 'wootheme-css',  get_template_directory_uri() . '/styles/style.css' );
+
+	    wp_enqueue_script( 'jquery', true );
+	    wp_localize_script('jquery', 'get_data',
+		    array(
+			    'url' => admin_url('admin-ajax.php')
+		    )
+	    );
+
+	    // Show script only on login page
+	    wp_register_script( 'woo_theme_login',  get_template_directory_uri() . '/scripts/login.js', array('jquery'), '1.0.1', true );
+	    if(is_page('login') ){
+		    wp_enqueue_script( 'woo_theme_login' );
+	    }
     }
 
 }

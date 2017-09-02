@@ -28,7 +28,7 @@ class WooAjaxSettings {
 		$redirect_path = home_url();
 
 		/**
-		 * Here settings blogs IDs
+		 * Here settings blog IDs
 		 */
 		$price_category_array = array(
 			'dealer'    => 3,

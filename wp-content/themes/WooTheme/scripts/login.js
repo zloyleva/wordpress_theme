@@ -36,7 +36,6 @@
                     if(typeof responce.errors && responce.errors){
                         cleanErrors();
 
-                        console.log('error!');
                         if(typeof responce.errors.empty_password !== 'undefined' && responce.errors.empty_password){
                             errorDisplay('password','Введите пароль');
                         }
@@ -49,10 +48,10 @@
                         if(typeof responce.errors.invalid_username !== 'undefined' && responce.errors.invalid_username){
                             errorDisplay('login', 'Вы ввели неверный или несуществующий логин');
                         }
-                    }
-                    if(typeof responce.data){
-                        console.log(responce);
-                        window.location.href = responce;
+                    }else {
+                        if(typeof responce.data){
+                            window.location.href = responce;
+                        }
                     }
 
                 }

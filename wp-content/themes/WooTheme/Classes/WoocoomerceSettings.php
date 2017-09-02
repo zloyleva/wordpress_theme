@@ -35,6 +35,8 @@ class WoocoomerceSettings
         unset($fields['billing']['billing_company']);
         unset($fields['billing']['billing_postcode']);
         unset($fields['billing']['billing_state']);
+        unset($fields['billing']['billing_country']);
+        unset($fields['billing']['billing_address_2']);
 
         unset($fields['shipping']['shipping_last_name']);
         unset($fields['shipping']['shipping_company']);

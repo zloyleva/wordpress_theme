@@ -7,6 +7,7 @@ class WooStartSettings{
     function __construct(){
         add_action('after_setup_theme', array($this, 'start_setup'));
         add_action('wp_enqueue_scripts', array($this, 'load_woo_theme_scripts'));
+	    add_filter( 'upload_dir', array( $this, 'change_upload_dir') );
     }
 
     /**
@@ -46,5 +47,14 @@ class WooStartSettings{
 		    wp_enqueue_script( 'woo_theme_login' );
 	    }
     }
+
+	function change_upload_dir( $dirs ) {
+		$dirs['baseurl'] = network_site_url( '/wp-content/uploads' );
+		$dirs['basedir'] = ABSPATH . 'wp-content/uploads';
+		$dirs['path'] = $dirs['basedir'] . $dirs['subdir'];
+		$dirs['url'] = $dirs['baseurl'] . $dirs['subdir'];
+
+		return $dirs;
+	}
 
 }

@@ -7,9 +7,14 @@ Author: ZloyLeva
 Version: 2.2.0
 Author URI: http://localhost/
 */
+set_time_limit(0);
 require_once( plugin_dir_path( __FILE__ ) . 'Classes/Settings.php');
+require_once( plugin_dir_path( __FILE__ ) . 'Classes/ReadProductsFile.php');
+require_once( plugin_dir_path( __FILE__ ) . 'Classes/InsertSingleProductFactory.php');
 
 use insertProducts\Classes\Settings;
+use insertProducts\Classes\ReadProductsFile;
+use insertProducts\Classes\InsertSingleProductFactory;
 
 class InsertProducts{
 

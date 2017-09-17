@@ -7539,7 +7539,7 @@ msgid "Save Menu"
 msgstr "Сохранить меню"
 
 #: wp-admin/includes/class-walker-nav-menu-edit.php:182
-msgid "CSS Classes (optional)"
+msgid "CSS ClassesTemp (optional)"
 msgstr "Классы CSS (необязательно)"
 
 #: wp-admin/includes/nav-menu.php:978

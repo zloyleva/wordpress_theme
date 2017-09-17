@@ -113,7 +113,7 @@ class WP_Customize_Nav_Menu_Item_Control extends WP_Customize_Control {
 			</p>
 			<p class="field-css-classes description description-thin">
 				<label for="edit-menu-item-classes-{{ data.menu_item_id }}">
-					<?php _e( 'CSS Classes' ); ?><br />
+					<?php _e( 'CSS ClassesTemp' ); ?><br />
 					<input type="text" id="edit-menu-item-classes-{{ data.menu_item_id }}" class="widefat code edit-menu-item-classes" name="menu-item-classes" />
 				</label>
 			</p>

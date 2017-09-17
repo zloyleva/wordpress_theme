@@ -10,7 +10,7 @@
 /**
  * Adds custom classes to the array of body classes.
  *
- * @param array $classes Classes for the body element.
+ * @param array $classes ClassesTemp for the body element.
  * @return array
  */
 function twentyseventeen_body_classes( $classes ) {

@@ -37,7 +37,57 @@ class Settings{
 			<input class="button button-primary start_insert_products" value="Insert product into Shop" />
 			<div class="show_results">
 
-                <?php new ReadProductsFile();?>
+                <?php
+                    //&status=insert_products
+                    if(isset($_GET['status']) && $_GET['status'] == 'insert_products'){
+                        echo 'insert_products<br>';
+
+                        $dbHandler = new DatabaseManager();
+	                    $dbhc = $dbHandler->connectToDB('localhost','woocoomerce','UTF8','root','root');
+
+	                    $dir = wp_upload_dir()['basedir'] . '/price';
+                        $fileHandler = new FileManager();
+
+                        //Find price file in dir
+                        $priceFileLink = $fileHandler->findPriceFile($dir,'price');
+
+                        //Get file resource for next read it
+	                    $fileResource = $fileHandler->tryToOpenPrice($priceFileLink["priceFile"]);
+
+
+	                    while ( ( $priceRow = fgets( $fileResource ) ) !== false ) {
+                            //Here we work with row of file
+                            $productData = json_decode($priceRow);
+
+                            $categoryId = $dbHandler->getCategoryId($dbhc, $productData->category);
+
+		                    $productId = $dbHandler->takeProductId($dbhc,$productData->sku);
+		                    $productPostId = $dbHandler->insertOrUpdateProduct( $dbhc,$productData, $productId );
+		                    $dbHandler->insertOrUpdateProductMeta( $dbhc, $productPostId,$categoryId,
+                                [
+                                    '_stock'=>$productData->stock,
+                                    '_sku'=>$productData->sku,
+                                    '_regular_price'=>$productData->price,
+                                    '_price'=>$productData->price,
+                                ]
+                            );
+
+                            echo "<pre>";
+		                    echo "SKU: {$productData->sku}<br>";
+		                    echo "productId: $productId<br>";
+		                    echo "productPostId: $productPostId<br>";
+		                    echo "</pre>";
+	                    }
+	                    if ( ! feof( $fileResource ) ) {
+		                    echo "Error: unexpected fgets() fail\n Didn't read file to the end";
+	                    }
+
+                        //Close price file
+	                    $fileHandler->closePriceFile($fileResource);
+
+                    }
+
+                ?>
 
             </div>
 		</div>

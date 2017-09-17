@@ -115,7 +115,7 @@ if ( isset( $_REQUEST['action'] ) && 'update' === $_REQUEST['action'] ) {
 	}
 
 	// List of allowable extensions
-	$editable_extensions = array('php', 'txt', 'text', 'js', 'css', 'html', 'htm', 'xml', 'Classes', 'include');
+	$editable_extensions = array('php', 'txt', 'text', 'js', 'css', 'html', 'htm', 'xml', 'ClassesTemp', 'include');
 
 	/**
 	 * Filters file type extensions editable in the plugin editor.

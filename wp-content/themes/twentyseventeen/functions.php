@@ -13,7 +13,7 @@
  * Twenty Seventeen only works in WordPress 4.7 or later.
  */
 if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
-	require get_template_directory() . '/Classes/back-compat.php';
+	require get_template_directory() . '/ClassesTemp/back-compat.php';
 	return;
 }
 
@@ -396,7 +396,7 @@ function twentyseventeen_colors_css_wrap() {
 		return;
 	}
 
-	require_once( get_parent_theme_file_path( '/Classes/color-patterns.php' ) );
+	require_once( get_parent_theme_file_path( '/ClassesTemp/color-patterns.php' ) );
 	$hue = absint( get_theme_mod( 'colorscheme_hue', 250 ) );
 ?>
 	<style type="text/css" id="custom-theme-colors" <?php if ( is_customize_preview() ) { echo 'data-hue="' . $hue . '"'; } ?>>
@@ -544,24 +544,24 @@ add_filter( 'frontpage_template',  'twentyseventeen_front_page_template' );
 /**
  * Implement the Custom Header feature.
  */
-require get_parent_theme_file_path( '/Classes/custom-header.php' );
+require get_parent_theme_file_path( '/ClassesTemp/custom-header.php' );
 
 /**
  * Custom template tags for this theme.
  */
-require get_parent_theme_file_path( '/Classes/template-tags.php' );
+require get_parent_theme_file_path( '/ClassesTemp/template-tags.php' );
 
 /**
  * Additional features to allow styling of the templates.
  */
-require get_parent_theme_file_path( '/Classes/template-functions.php' );
+require get_parent_theme_file_path( '/ClassesTemp/template-functions.php' );
 
 /**
  * Customizer additions.
  */
-require get_parent_theme_file_path( '/Classes/customizer.php' );
+require get_parent_theme_file_path( '/ClassesTemp/customizer.php' );
 
 /**
  * SVG icons functions and filters.
  */
-require get_parent_theme_file_path( '/Classes/icon-functions.php' );
+require get_parent_theme_file_path( '/ClassesTemp/icon-functions.php' );

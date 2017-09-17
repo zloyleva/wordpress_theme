@@ -4488,7 +4488,7 @@ msgid "Link Relationship (XFN)"
 msgstr "Отношение к ссылке (XFN)"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:116
-msgid "CSS Classes"
+msgid "CSS ClassesTemp"
 msgstr "Классы CSS"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:110

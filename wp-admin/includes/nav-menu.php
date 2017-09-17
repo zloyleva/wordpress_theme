@@ -977,7 +977,7 @@ function wp_nav_menu_manage_columns() {
 		'cb'              => '<input type="checkbox" />',
 		'link-target'     => __( 'Link Target' ),
 		'title-attribute' => __( 'Title Attribute' ),
-		'css-classes'     => __( 'CSS Classes' ),
+		'css-classes'     => __( 'CSS ClassesTemp' ),
 		'xfn'             => __( 'Link Relationship (XFN)' ),
 		'description'     => __( 'Description' ),
 	);

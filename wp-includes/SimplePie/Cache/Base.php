@@ -45,7 +45,7 @@
 /**
  * Base for cache objects
  *
- * Classes to be used with {@see SimplePie_Cache::register()} are expected
+ * ClassesTemp to be used with {@see SimplePie_Cache::register()} are expected
  * to implement this interface.
  *
  * @package SimplePie

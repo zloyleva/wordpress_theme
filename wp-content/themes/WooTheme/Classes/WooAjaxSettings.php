@@ -5,7 +5,7 @@ namespace Classes;
 /**
  * Here created AJAX heandles
  * Class WooAjaxSettings
- * @package Classes
+ * @package ClassesTemp
  */
 class WooAjaxSettings {
 

@@ -4,7 +4,7 @@
  *
  * @class 		WC_Query
  * @version		2.6.0
- * @package		WooCommerce/Classes
+ * @package		WooCommerce/ClassesTemp
  * @category	Class
  * @author 		WooThemes
  */

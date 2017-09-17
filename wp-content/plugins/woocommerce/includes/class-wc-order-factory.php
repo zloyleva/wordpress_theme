@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class 		WC_Order_Factory
  * @version		3.0.0
- * @package		WooCommerce/Classes
+ * @package		WooCommerce/ClassesTemp
  * @category	Class
  * @author 		WooCommerce
  */

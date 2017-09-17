@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @class 		WC_Shipping_Zones
  * @since 		2.6.0
  * @version		3.0.0
- * @package		WooCommerce/Classes
+ * @package		WooCommerce/ClassesTemp
  * @category	Class
  * @author 		WooCommerce
  */

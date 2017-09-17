@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * The WooCommerce checkout class handles the checkout process, collecting user data and processing the payment.
  *
  * @class    WC_Checkout
- * @package  WooCommerce/Classes
+ * @package  WooCommerce/ClassesTemp
  * @category Class
  * @author   WooThemes
  */

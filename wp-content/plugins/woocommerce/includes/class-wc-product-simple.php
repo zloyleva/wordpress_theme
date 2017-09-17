@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * The default product type kinda product.
  *
  * @class 		WC_Product_Simple
- * @package		WooCommerce/Classes/Products
+ * @package		WooCommerce/ClassesTemp/Products
  * @category	Class
  * @author 		WooThemes
  */

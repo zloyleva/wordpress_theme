@@ -13,7 +13,7 @@ if ( ! class_exists( 'WC_Email_Customer_Refunded_Order', false ) ) :
  *
  * @class    WC_Email_Customer_Refunded_Order
  * @version  2.4.0
- * @package  WooCommerce/Classes/Emails
+ * @package  WooCommerce/ClassesTemp/Emails
  * @author   WooThemes
  * @extends  WC_Email
  */

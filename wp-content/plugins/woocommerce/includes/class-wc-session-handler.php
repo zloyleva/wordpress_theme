@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class    WC_Session_Handler
  * @version  2.5.0
- * @package  WooCommerce/Classes
+ * @package  WooCommerce/ClassesTemp
  * @category Class
  * @author   WooThemes
  */

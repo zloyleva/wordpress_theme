@@ -1,6 +1,6 @@
 <?php
 /**
- * REST API Product Shipping Classes controller
+ * REST API Product Shipping ClassesTemp controller
  *
  * Handles requests to the products/shipping_classes endpoint.
  *
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * REST API Product Shipping Classes controller class.
+ * REST API Product Shipping ClassesTemp controller class.
  *
  * @package WooCommerce/API
  * @extends WC_REST_Terms_Controller

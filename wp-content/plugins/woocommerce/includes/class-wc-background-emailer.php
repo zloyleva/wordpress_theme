@@ -7,7 +7,7 @@
  *
  * @class    WC_Background_Emailer
  * @version  3.0.1
- * @package  WooCommerce/Classes
+ * @package  WooCommerce/ClassesTemp
  * @category Class
  * @author   WooCommerce
  */

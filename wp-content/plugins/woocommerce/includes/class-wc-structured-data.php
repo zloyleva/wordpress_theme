@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @class   WC_Structured_Data
  * @since   3.0.0
  * @version 3.0.0
- * @package WooCommerce/Classes
+ * @package WooCommerce/ClassesTemp
  * @author  Clément Cazaud <opportus@gmail.com>
  */
 class WC_Structured_Data {

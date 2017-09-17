@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class       WC_Countries
  * @version     2.3.0
- * @package     WooCommerce/Classes
+ * @package     WooCommerce/ClassesTemp
  * @category    Class
  * @author      WooThemes
  */

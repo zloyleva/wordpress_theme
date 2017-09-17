@@ -6,7 +6,7 @@
  *
  * @class     WC_Post_types
  * @version   2.5.0
- * @package   WooCommerce/Classes/Products
+ * @package   WooCommerce/ClassesTemp/Products
  * @category  Class
  * @author    WooThemes
  */

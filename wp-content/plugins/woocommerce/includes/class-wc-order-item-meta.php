@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @deprecated  3.0.0 wc_display_item_meta function is used instead.
  * @class 		order_item_meta
  * @version		2.4
- * @package		WooCommerce/Classes
+ * @package		WooCommerce/ClassesTemp
  * @author 		WooThemes
  */
 class WC_Order_Item_Meta {

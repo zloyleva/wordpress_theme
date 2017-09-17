@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @version     3.0.0
  * @since       3.0.0
- * @package     WooCommerce/Classes
+ * @package     WooCommerce/ClassesTemp
  * @author      WooCommerce
  */
 class WC_Order_Item_Coupon extends WC_Order_Item {

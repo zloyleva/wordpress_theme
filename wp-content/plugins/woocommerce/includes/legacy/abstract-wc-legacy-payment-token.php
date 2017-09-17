@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * directly on the object.
  *
  * @version  3.0.0
- * @package  WooCommerce/Classes
+ * @package  WooCommerce/ClassesTemp
  * @category Class
  * @author   WooCommerce
  */

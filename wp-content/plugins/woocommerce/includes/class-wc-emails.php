@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class 		WC_Emails
  * @version		2.3.0
- * @package		WooCommerce/Classes/Emails
+ * @package		WooCommerce/ClassesTemp/Emails
  * @category	Class
  * @author 		WooThemes
  */

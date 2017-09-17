@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class          WC_Log_Handler_Email
  * @version        1.0.0
- * @package        WooCommerce/Classes/Log_Handlers
+ * @package        WooCommerce/ClassesTemp/Log_Handlers
  * @category       Class
  * @author         WooThemes
  */

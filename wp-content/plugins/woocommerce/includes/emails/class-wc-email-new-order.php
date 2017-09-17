@@ -13,7 +13,7 @@ if ( ! class_exists( 'WC_Email_New_Order' ) ) :
  *
  * @class       WC_Email_New_Order
  * @version     2.0.0
- * @package     WooCommerce/Classes/Emails
+ * @package     WooCommerce/ClassesTemp/Emails
  * @author      WooThemes
  * @extends     WC_Email
  */

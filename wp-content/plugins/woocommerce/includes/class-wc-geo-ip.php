@@ -6,7 +6,7 @@
  *
  * @author 	 WooThemes
  * @category Admin
- * @package  WooCommerce/Classes
+ * @package  WooCommerce/ClassesTemp
  * @version  2.4.0
  */
 

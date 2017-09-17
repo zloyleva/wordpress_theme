@@ -15,7 +15,7 @@ if ( class_exists( 'WC_Email', false ) ) {
  *
  * @class       WC_Email
  * @version     2.5.0
- * @package     WooCommerce/Classes/Emails
+ * @package     WooCommerce/ClassesTemp/Emails
  * @author      WooThemes
  * @extends     WC_Settings_API
  */

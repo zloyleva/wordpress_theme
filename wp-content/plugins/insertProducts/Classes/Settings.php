@@ -42,7 +42,15 @@ class Settings{
             </div>
 		</div>
 		<?php
-		echo "Used memory: " . memory_get_usage() - $mem_start . "<br>";
-		echo "Time: " . time() - $time_start . "<br>";
+		echo "<pre>";
+        print_r([
+            'start_m'=>$mem_start,
+            'max_m'=>memory_get_usage(),
+        ]);
+		print_r([
+			'start_time'=>$time_start,
+			'end_time'=>time(),
+		]);
+		echo "</pre>";
 	}
 }

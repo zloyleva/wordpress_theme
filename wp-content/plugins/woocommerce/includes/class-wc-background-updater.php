@@ -7,7 +7,7 @@
  *
  * @class    WC_Background_Updater
  * @version  2.6.0
- * @package  WooCommerce/Classes
+ * @package  WooCommerce/ClassesTemp
  * @category Class
  * @author   WooThemes
  */

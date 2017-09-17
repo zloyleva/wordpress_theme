@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class 		WC_Cart
  * @version		2.1.0
- * @package		WooCommerce/Classes
+ * @package		WooCommerce/ClassesTemp
  * @category	Class
  * @author 		WooThemes
  */
@@ -1130,7 +1130,7 @@ class WC_Cart {
 			 * Prices include tax.
 			 *
 			 * To prevent rounding issues we need to work with the inclusive price where possible.
-			 * otherwise we'll see errors such as when working with a 9.99 Classes price, 20% VAT which would.
+			 * otherwise we'll see errors such as when working with a 9.99 ClassesTemp price, 20% VAT which would.
 			 * be 8.325 leading to totals being 1p off.
 			 *
 			 * Pre tax coupons come off the price the customer thinks they are paying - tax is calculated.
@@ -1837,7 +1837,7 @@ class WC_Cart {
 	/**
 	 * Get the discount amount for a used coupon.
 	 * @param  string $code coupon code
-	 * @param  bool $ex_tax Classes or ex tax
+	 * @param  bool $ex_tax ClassesTemp or ex tax
 	 * @return float discount amount
 	 */
 	public function get_coupon_discount_amount( $code, $ex_tax = true ) {

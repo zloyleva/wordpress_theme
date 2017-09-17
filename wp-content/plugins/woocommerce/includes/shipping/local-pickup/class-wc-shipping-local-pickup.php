@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class 		WC_Shipping_Local_Pickup
  * @version		2.6.0
- * @package		WooCommerce/Classes/Shipping
+ * @package		WooCommerce/ClassesTemp/Shipping
  * @author 		WooThemes
  */
 class WC_Shipping_Local_Pickup extends WC_Shipping_Method {

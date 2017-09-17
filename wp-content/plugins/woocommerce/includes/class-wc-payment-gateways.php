@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class 		WC_Payment_Gateways
  * @version		2.2.0
- * @package		WooCommerce/Classes/Payment
+ * @package		WooCommerce/ClassesTemp/Payment
  * @category	Class
  * @author 		WooThemes
  */

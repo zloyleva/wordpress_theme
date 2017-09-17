@@ -74,7 +74,7 @@ class WC_Admin_Help {
 				'id'    => '9c9008dxnr',
 			),
 			'wc-settings-shipping-classes' => array(
-				'title' => __( 'Shipping Classes', 'woocommerce' ),
+				'title' => __( 'Shipping ClassesTemp', 'woocommerce' ),
 				'id'    => 'tpqg17aq99',
 			),
 			'wc-settings-checkout' => array(

@@ -1,6 +1,6 @@
 <?php
 /**
- * REST API Tax Classes controller
+ * REST API Tax ClassesTemp controller
  *
  * Handles requests to the /taxes/classes endpoint.
  *
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * REST API Tax Classes controller class.
+ * REST API Tax ClassesTemp controller class.
  *
  * @package WooCommerce/API
  * @extends WC_REST_Controller
@@ -320,7 +320,7 @@ class WC_REST_Tax_Classes_V1_Controller extends WC_REST_Controller {
 	}
 
 	/**
-	 * Get the Tax Classes schema, conforming to JSON Schema
+	 * Get the Tax ClassesTemp schema, conforming to JSON Schema
 	 *
 	 * @return array
 	 */

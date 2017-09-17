@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class       WC_Shortcodes
  * @version     2.1.0
- * @package     WooCommerce/Classes
+ * @package     WooCommerce/ClassesTemp
  * @category    Class
  * @author      WooThemes
  */

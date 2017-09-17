@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @class 		WC_Payment_Tokens
  * @version     3.0.0
  * @since		2.6.0
- * @package		WooCommerce/Classes
+ * @package		WooCommerce/ClassesTemp
  * @category	Class
  * @author		WooThemes
  */

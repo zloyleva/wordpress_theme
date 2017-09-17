@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class    WC_Integrations
  * @version  2.3.0
- * @package  WooCommerce/Classes/Integrations
+ * @package  WooCommerce/ClassesTemp/Integrations
  * @category Class
  * @author   WooThemes
  */

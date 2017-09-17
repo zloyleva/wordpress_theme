@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class          WC_Logger
  * @version        2.0.0
- * @package        WooCommerce/Classes
+ * @package        WooCommerce/ClassesTemp
  * @category       Class
  * @author         WooThemes
  */

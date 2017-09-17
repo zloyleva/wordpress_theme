@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class 		WC_Post_Data
  * @version		2.2.0
- * @package		WooCommerce/Classes/Data
+ * @package		WooCommerce/ClassesTemp/Data
  * @category	Class
  * @author 		WooThemes
  */

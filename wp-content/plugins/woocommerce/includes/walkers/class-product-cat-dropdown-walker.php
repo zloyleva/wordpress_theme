@@ -5,7 +5,7 @@
  * @extends 	Walker
  * @class 		WC_Product_Cat_Dropdown_Walker
  * @version		1.6.4
- * @package		WooCommerce/Classes/Walkers
+ * @package		WooCommerce/ClassesTemp/Walkers
  * @author 		WooThemes
  */
 

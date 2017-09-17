@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * contain much of the same data.
  *
  * @version  3.0.0
- * @package  WooCommerce/Classes
+ * @package  WooCommerce/ClassesTemp
  * @category Class
  * @author   WooThemes
  */

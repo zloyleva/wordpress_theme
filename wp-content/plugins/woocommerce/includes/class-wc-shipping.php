@@ -6,7 +6,7 @@
  *
  * @class 		WC_Shipping
  * @version		2.6.0
- * @package		WooCommerce/Classes/Shipping
+ * @package		WooCommerce/ClassesTemp/Shipping
  * @category	Class
  * @author 		WooThemes
  */

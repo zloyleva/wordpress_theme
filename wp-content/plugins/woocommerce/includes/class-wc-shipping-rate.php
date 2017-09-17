@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class 		WC_Shipping_Rate
  * @version		2.6.0
- * @package		WooCommerce/Classes/Shipping
+ * @package		WooCommerce/ClassesTemp/Shipping
  * @category	Class
  * @author 		WooThemes
  */

@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * AJAX Event Handler.
  *
  * @class    WC_AJAX
- * @package  WooCommerce/Classes
+ * @package  WooCommerce/ClassesTemp
  * @category Class
  * @author   WooThemes
  */

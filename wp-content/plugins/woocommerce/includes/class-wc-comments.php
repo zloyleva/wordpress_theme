@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class    WC_Comments
  * @version  2.3.0
- * @package  WooCommerce/Classes/Products
+ * @package  WooCommerce/ClassesTemp/Products
  * @category Class
  * @author   WooThemes
  */

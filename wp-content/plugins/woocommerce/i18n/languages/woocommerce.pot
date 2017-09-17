@@ -6684,7 +6684,7 @@ msgid "Shipping Options"
 msgstr ""
 
 #: includes/admin/class-wc-admin-help.php:77
-msgid "Shipping Classes"
+msgid "Shipping ClassesTemp"
 msgstr ""
 
 #: includes/admin/class-wc-admin-help.php:81
@@ -13164,7 +13164,7 @@ msgstr ""
 #: includes/admin/settings/views/settings-tax.php:97
 msgid ""
 "Define text to show after your product prices. This could be, for example, "
-"\"Classes. Vat\" to explain your pricing. You can also have prices substituted "
+"\"ClassesTemp. Vat\" to explain your pricing. You can also have prices substituted "
 "here using one of the following: {price_including_tax}, "
 "{price_excluding_tax}."
 msgstr ""

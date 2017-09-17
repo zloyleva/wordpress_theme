@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @version     3.0.0
  * @since       3.0.0
- * @package     WooCommerce/Classes
+ * @package     WooCommerce/ClassesTemp
  * @author      WooThemes
  */
 class WC_Order_Item_Fee extends WC_Order_Item {

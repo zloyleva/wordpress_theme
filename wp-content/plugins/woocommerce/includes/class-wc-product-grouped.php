@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class 		WC_Product_Grouped
  * @version		3.0.0
- * @package		WooCommerce/Classes/Products
+ * @package		WooCommerce/ClassesTemp/Products
  * @category	Class
  * @author 		WooThemes
  */

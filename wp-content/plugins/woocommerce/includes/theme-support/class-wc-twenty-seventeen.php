@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @class   WC_Twenty_Seventeen
  * @since   2.6.9
  * @version 2.6.9
- * @package WooCommerce/Classes
+ * @package WooCommerce/ClassesTemp
  */
 class WC_Twenty_Seventeen {
 

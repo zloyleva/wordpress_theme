@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class          WC_Log_Levels
  * @version        1.0.0
- * @package        WooCommerce/Classes
+ * @package        WooCommerce/ClassesTemp
  * @category       Class
  * @author         WooThemes
  */
